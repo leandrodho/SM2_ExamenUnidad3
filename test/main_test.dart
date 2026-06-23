@@ -17,6 +17,7 @@ void main() {
         createdAt: DateTime.now(),
         updatedAt: DateTime.now(),
         isActive: true,
+        verifiedBy: const [],
       );
 
       // Verificamos que el mapeo e instanciación básica funcione
@@ -38,6 +39,7 @@ void main() {
         createdAt: DateTime.now(),
         updatedAt: DateTime.now(),
         isActive: true,
+        verifiedBy: const [],
       );
 
       // Simulamos exactamente la acción del Administrador al presionar "Aprobar"
@@ -60,6 +62,7 @@ void main() {
         createdAt: DateTime.now(),
         updatedAt: DateTime.now(),
         isActive: true,
+        verifiedBy: const [],
       );
 
       // Simulamos el flujo donde el incidente pasa a ser atendido por las autoridades
