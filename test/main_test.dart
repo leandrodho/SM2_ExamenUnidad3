@@ -15,6 +15,7 @@ void main() {
         userId: 'user_tacna_01',
         images: [],
         createdAt: DateTime.now(),
+        updatedAt: DateTime.now(),
         isActive: true,
       );
 
@@ -35,6 +36,7 @@ void main() {
         userId: 'user_tacna_02',
         images: [],
         createdAt: DateTime.now(),
+        updatedAt: DateTime.now(),
         isActive: true,
       );
 
@@ -42,7 +44,7 @@ void main() {
       final reportAprobado = reportInicial.copyWith(status: 'activo');
 
       expect(reportAprobado.status, 'activo');
-      expect(reportAprobado.title, 'Robo en mercado'); // El resto de propiedades deben seguir intactas
+      expect(reportAprobado.title, 'Robo en mercado'); 
     });
 
     test('3. Debe cambiar el estado a EN PROCESO usando copyWith (Lógica de Gestión de Alertas)', () {
@@ -56,6 +58,7 @@ void main() {
         userId: 'user_tacna_03',
         images: [],
         createdAt: DateTime.now(),
+        updatedAt: DateTime.now(),
         isActive: true,
       );
 
